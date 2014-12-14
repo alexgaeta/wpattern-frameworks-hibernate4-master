@@ -1,0 +1,12 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.table_header {
+	font-weight:bold;
+}
+
+td, th {
+    border: 1px solid black;
+}

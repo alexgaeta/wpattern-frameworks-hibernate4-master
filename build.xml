@@ -1,0 +1,11 @@
+<project name="wpattern-frameworks-hibernate4" default="hot-deploy">
+
+	<property environment="env" />
+
+	<target name="hot-deploy">
+		<copy todir="target/wpattern-frameworks-hibernate4-0.0.1-SNAPSHOT">
+			<fileset dir="src/main/webapp/" />
+		</copy>
+	</target>
+
+</project>
